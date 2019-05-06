@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(arr)
   arr.each do |e|
-    e[0].upcase
+    e[0] = e[0].upcase
     e << "!"
   end
 end
